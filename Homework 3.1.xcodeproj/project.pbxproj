@@ -15,6 +15,7 @@
 		79E62780256BA1BC004520D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E6277E256BA1BC004520D7 /* LaunchScreen.storyboard */; };
 		79E6278B256BA1BC004520D7 /* Homework_3_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6278A256BA1BC004520D7 /* Homework_3_1Tests.swift */; };
 		79E62796256BA1BC004520D7 /* Homework_3_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E62795256BA1BC004520D7 /* Homework_3_1UITests.swift */; };
+		79E627A7256BA28E004520D7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E627A6256BA28E004520D7 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		79E62791256BA1BC004520D7 /* Homework 3.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 3.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E62795256BA1BC004520D7 /* Homework_3_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_3_1UITests.swift; sourceTree = "<group>"; };
 		79E62797256BA1BC004520D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E627A6256BA28E004520D7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				79E62775256BA1BB004520D7 /* SceneDelegate.swift */,
 				79E62777256BA1BB004520D7 /* ViewController.swift */,
 				79E62779256BA1BB004520D7 /* Main.storyboard */,
+				79E627A6256BA28E004520D7 /* PrimaryButton.swift */,
 				79E6277C256BA1BC004520D7 /* Assets.xcassets */,
 				79E6277E256BA1BC004520D7 /* LaunchScreen.storyboard */,
 				79E62781256BA1BC004520D7 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				79E62778256BA1BB004520D7 /* ViewController.swift in Sources */,
 				79E62774256BA1BB004520D7 /* AppDelegate.swift in Sources */,
+				79E627A7256BA28E004520D7 /* PrimaryButton.swift in Sources */,
 				79E62776256BA1BB004520D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stas.Homework-3-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stas.Homework-3-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
